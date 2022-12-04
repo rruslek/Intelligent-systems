@@ -1,0 +1,233 @@
+#
+#
+#Прямой ход
+#
+#
+
+#
+#Tesla Model S
+#
+
+#Tesla Model S имеет электрический двигатель
+tesla-has-electric-engine:
+  source: "Tesla Model S"
+  question: "Какой тип двигателя?"
+  answer: "Электро"
+  
+#Tesla Model S производится в США
+tesla-is-produced-in-usa:
+  source: "Tesla Model S"
+  question: "Какая страна производства?"
+  answer: "США"  
+  
+#Tesla Model S имеет тип кузова седан
+tesla-is-sedan:
+  source: "Tesla Model S"
+  question: "Какой тип кузова?"
+  answer: "Седан"
+
+#
+#BMW M5
+#
+
+#BMW M5 имеет бензиновый двигатель
+bmw-has-petrol-engine:
+  source: "BMW M5"
+  question: "Какой тип двигателя?"
+  answer: "Бензин"
+  
+#BMW M5 производится в Германии
+bmw-is-produced-in-germany:
+  source: "BMW M5"
+  question: "Какая страна производства?"
+  answer: "Германия"  
+  
+#BMW M5 имеет тип кузова седан
+bmw-is-sedan:
+  source: "BMW M5"
+  question: "Какой тип кузова?"
+  answer: "Седан"    
+
+#
+#Lamborghini Huracan
+#
+
+#Lamborghini Huracan имеет бензиновый двигатель
+lamborghini-has-petrol-engine:
+  source: "Lamborghini Huracan"
+  question: "Какой тип двигателя?"
+  answer: "Бензин"
+  
+#Lamborghini Huracan производится в Италии
+lamborghini-is-produced-in-italy:
+  source: "Lamborghini Huracan"
+  question: "Какая страна производства?"
+  answer: "Италия"  
+  
+#Lamborghini Huracan имеет тип кузова купе
+lamborghini-is-coupe:
+  source: "Lamborghini Huracan"
+  question: "Какой тип кузова?"
+  answer: "Купе"
+  
+#
+#Audi Q7
+#
+
+#Audi Q7 имеет дизельный двигатель
+audi-has-diesel-engine:
+  source: "Audi Q7"
+  question: "Какой тип двигателя?"
+  answer: "Дизель"
+  
+#Audi Q7 производится в Германии
+audi-is-produced-in-germany:
+  source: "Audi Q7"
+  question: "Какая страна производства?"
+  answer: "Германия"  
+  
+#Audi Q7 имеет тип кузова внедорожник
+audi-is-suv:
+  source: "Audi Q7"
+  question: "Какой тип кузова?"
+  answer: "Внедорожник"
+  
+#
+#Kia Picanto
+#
+
+#Kia Picanto имеет бензиновый двигатель
+kia-has-petrol-engine:
+  source: "Kia Picanto"
+  question: "Какой тип двигателя?"
+  answer: "Бензин"
+  
+#Kia Picanto производится в Южной Корее
+kia-is-produced-in-korea:
+  source: "Kia Picanto"
+  question: "Какая страна производства?"
+  answer: "Южная Корея"  
+  
+#Kia Picanto имеет тип кузова хэтчбек
+kia-is-hatchback:
+  source: "Kia Picanto"
+  question: "Какой тип кузова?"
+  answer: "Хэтчбек"   
+
+#
+#Toyota Hilux
+#
+
+#Toyota Hilux имеет бензиновый и дизельный двигатель
+toyota-has-petrol-and-diesel-engine:
+  source: "Toyota Hilux"
+  question: "Какой тип двигателя?"
+  answer: ["Бензин", "Дизель"]
+  
+#Toyota Hilux производится в Японии
+toyota-is-produced-in-japan:
+  source: "Toyota Hilux"
+  question: "Какая страна производства?"
+  answer: "Япония"  
+  
+#Toyota Hilux имеет тип кузова пикап
+toyota-is-pickup:
+  source: "Toyota Hilux"
+  question: "Какой тип кузова?"
+  answer: "Пикап"     
+
+#
+#
+#Обратный ход
+#
+#
+
+#
+#Производство автомобилей в странах
+#
+
+#В Германии производятся следующие автомобили: BMW M5, Audi Q7
+germany-has-cars:
+  source: "Германия"
+  question: "Какие автомобили производит?"
+  answer: ["BMW M5", "Audi Q7"]  
+  
+#В США производятся следующие автомобили: Tesla Model S
+usa-has-cars:
+  source: "США"
+  question: "Какие автомобили производит?"
+  answer: "Tesla Model S"
+
+#В Италии производятся следующие автомобили: Lamborghini Huracan
+italy-has-cars:
+  source: "Италия"
+  question: "Какие автомобили производит?"
+  answer: "Lamborghini Huracan"  
+
+#В Южной Корее производятся следующие автомобили: Kia Picanto
+korea-has-cars:
+  source: "Южная Корея"
+  question: "Какие автомобили производит?"
+  answer: "Kia Picanto"      
+
+#В Японии производятся следующие автомобили: Toyota Hilux
+japan-has-cars:
+  source: "Япония"
+  question: "Какие автомобили производит?"
+  answer: "Toyota Hilux"
+  
+#
+#Тип кузова у автомобилей
+#
+
+#Тип кузова седан имеют следующие автомобили: BMW M5, Tesla Model S
+sedan-are-cars:
+  source: "Седан"
+  question: "Какие автомобили имеют этот тип кузова?"
+  answer: ["BMW M5", "Tesla Model S"] 
+
+#Тип кузова хэтчбек имеют следующие автомобили: Kia Picanto
+hatchback-are-cars:
+  source: "Хэтчбек"
+  question: "Какие автомобили имеют этот тип кузова?"
+  answer: "Kia Picanto"  
+
+#Тип кузова внедорожник имеют следующие автомобили: Audi Q7
+suv-are-cars:
+  source: "Внедорожник"
+  question: "Какие автомобили имеют этот тип кузова?"
+  answer: "Audi Q7" 
+  
+#Тип кузова пикап имеют следующие автомобили: Toyota Hilux
+pickup-are-cars:
+  source: "Пикап"
+  question: "Какие автомобили имеют этот тип кузова?"
+  answer: "Toyota Hilux"
+
+#Тип кузова купе имеют следующие автомобили: Lamborghini Huracan
+coupe-are-cars:
+  source: "Купе"
+  question: "Какие автомобили имеют этот тип кузова?"
+  answer: "Lamborghini Huracan"
+
+#
+#Тип двигателя у автомобилей
+#
+
+#Бензиновый двигатель имеют следующие автомобили: BMW M5, Lamborghini Huracan, Kia Picanto, Toyota Hilux
+petrol-engine-has-cars:
+  source: "Бензин"
+  question: "Какие автомобили имеют этот тип двигателя?"
+  answer: ["BMW M5", "Lamborghini Huracan", "Kia Picanto", "Toyota Hilux"] 
+
+#Дизельный двигатель имеют следующие автомобили: Audi Q7, Toyota Hilux
+diesel-engine-has-cars:
+  source: "Дизель"
+  question: "Какие автомобили имеют этот тип двигателя?"
+  answer: ["Audi Q7", "Toyota Hilux"] 
+  
+#Электрическиц двигатель имеют следующие автомобили: Tesla Model S
+electric-engine-has-cars:
+  source: "Электро"
+  question: "Какие автомобили имеют этот тип двигателя?"
+  answer: "Tesla Model S"   
