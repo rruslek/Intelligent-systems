@@ -57,4 +57,4 @@ if (type(result) == list):
     for i in result:
         print(i)
 else:
-    print(answer)
+    print(result)
