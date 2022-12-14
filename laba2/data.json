@@ -1,0 +1,565 @@
+{
+  "Rules": [
+    {
+      "conditions": [
+        {
+          "indie": "yes",
+          "t": "<3",
+          "solution": null
+        },
+        {
+          "3d": "yes",
+          "t": "<3",
+          "solution": null
+        }
+      ],
+      "function": "get-solution",
+      "result": "C#",
+      "conclusion": "solution"
+    },
+    {
+      "conditions": [
+        {
+          "aaa": "yes",
+          "graphics": "yes",
+          "t": ">3",
+          "solution": null
+        }
+      ],
+      "function": "get-solution",
+      "result": "C++",
+      "conclusion": "solution"
+    },
+    {
+      "conditions": [
+        {
+          "2d": "yes",
+          "solution": null
+        },
+        {
+          "reliability": "yes",
+          "solution": null
+        },
+        {
+          "tasks": "yes",
+          "solution": null
+        }
+      ],
+      "function": "get-solution",
+      "result": "Java",
+      "conclusion": "solution"
+    },
+    {
+      "conditions": [
+        {
+          "creativity": "yes",
+          "taste": "yes",
+          "solution": null
+        }
+      ],
+      "function": "get-solution",
+      "result": "JavaScript",
+      "conclusion": "solution"
+    },
+    {
+      "conditions": [
+        {
+          "compactness": "yes",
+          "new": "yes",
+          "solution": null
+        }
+      ],
+      "function": "get-solution",
+      "result": "Kotlin",
+      "conclusion": "solution"
+    },
+    {
+      "conditions": [
+        {
+          "security": "yes",
+          "simplicity": "yes",
+          "solution": null
+        }
+      ],
+      "function": "get-solution",
+      "result": "Swift",
+      "conclusion": "solution"
+    },
+    {
+      "conditions": [
+        {
+          "science": "yes",
+          "experience": "yes",
+          "solution": null
+        }
+      ],
+      "function": "get-solution",
+      "result": "R",
+      "conclusion": "solution"
+    },
+    {
+      "conditions": [
+        {
+          "practice": "yes",
+          "versatility": "yes",
+          "solution": null
+        }
+      ],
+      "function": "get-solution",
+      "result": "Python",
+      "conclusion": "solution"
+    },
+	{
+      "conditions": [
+        {
+          "not": [
+            {
+              "time": null
+            }
+          ],
+          "solution": null
+        }
+      ],
+      "function": "check-time",
+      "conclusion": "t"
+    },
+    {
+      "conditions": [
+        {
+          "solution": null,
+          "browser": null
+        }
+      ],
+      "function": "yes-or-no",
+      "question": "Вы предпочитаете браузер сторонним приложениям?",
+      "conclusion": "browser"
+    },
+    {
+      "conditions": [
+        {
+          "browser": "yes",
+          "solution": null,
+          "design": null
+        }
+      ],
+      "function": "yes-or-no",
+      "question": "Вам больше интересен дизайн?",
+      "conclusion": "design"
+    },
+    {
+      "conditions": [
+        {
+          "solution": null,
+          "beauty": null
+        }
+      ],
+      "function": "yes-or-no",
+      "question": "Вы считаете что внешняя красота важнее внутренней?",
+      "conclusion": "beauty"
+    },
+    {
+      "conditions": [
+        {
+          "design": "yes",
+          "beauty": "yes",
+          "solution": null,
+          "taste": null
+        }
+      ],
+      "function": "yes-or-no",
+      "question": "Вы обладаете художественным вкусом?",
+      "conclusion": "taste"
+    },
+    {
+      "conditions": [
+        {
+          "solution": null,
+          "creativity": null
+        }
+      ],
+      "function": "yes-or-no",
+      "question": "Вы - креативная личность?",
+      "conclusion": "creativity"
+    },
+    {
+      "conditions": [
+        {
+          "browser": "yes",
+          "solution": null,
+          "mechanism": null
+        }
+      ],
+      "function": "yes-or-no",
+      "question": "Вам больше интересно как все работает?",
+      "conclusion": "mechanism"
+    },
+    {
+      "conditions": [
+        {
+          "mechanism": "yes",
+          "solution": null,
+          "tasks": null
+        }
+      ],
+      "function": "yes-or-no",
+      "question": "Вы любите решать сложные задачи?",
+      "conclusion": "tasks"
+    },
+    {
+      "conditions": [
+        {
+          "solution": null,
+          "phone": null
+        }
+      ],
+      "function": "yes-or-no",
+      "question": "Вы часто пользуетесь смартфоном?",
+      "conclusion": "phone"
+    },
+    {
+      "conditions": [
+        {
+          "phone": "yes",
+          "solution": null,
+          "android": null
+        }
+      ],
+      "function": "yes-or-no",
+      "question": "У вас Андроид?",
+      "conclusion": "android"
+    },
+    {
+      "conditions": [
+        {
+          "solution": null,
+          "experience": null
+        }
+      ],
+      "function": "yes-or-no",
+      "question": "У вас есть опыт в программировании?",
+      "conclusion": "experience"
+    },
+    {
+      "conditions": [
+        {
+          "android": "yes",
+          "experience": "yes",
+          "solution": null,
+          "reliability": null
+        }
+      ],
+      "function": "yes-or-no",
+      "question": "Вы предпочитаете все надежное и проверенное?",
+      "conclusion": "reliability"
+    },
+    {
+      "conditions": [
+        {
+          "android": "yes",
+          "solution": null,
+          "new": null
+        }
+      ],
+      "function": "yes-or-no",
+      "question": "Вы выбираете все самое новое и современное?",
+      "conclusion": "new"
+    },
+    {
+      "conditions": [
+        {
+          "solution": null,
+          "compactness": null
+        }
+      ],
+      "function": "yes-or-no",
+      "question": "Вам нравится компактность и читаемость кода?",
+      "conclusion": "compactness"
+    },
+    {
+      "conditions": [
+        {
+          "phone": "yes",
+          "solution": null,
+          "iphone": null
+        }
+      ],
+      "function": "yes-or-no",
+      "question": "У вас Айфон?",
+      "conclusion": "iphone"
+    },
+    {
+      "conditions": [
+        {
+          "solution": null,
+          "apple": null
+        }
+      ],
+      "function": "yes-or-no",
+      "question": "Вы любите технику Apple?",
+      "conclusion": "apple"
+    },
+    {
+      "conditions": [
+        {
+          "iphone": "yes",
+          "apple": "yes",
+          "solution": null,
+          "simplicity": null
+        }
+      ],
+      "function": "yes-or-no",
+      "question": "Вам нравится простота и понятность?",
+      "conclusion": "simplicity"
+    },
+    {
+      "conditions": [
+        {
+          "solution": null,
+          "security": null
+        }
+      ],
+      "function": "yes-or-no",
+      "question": "Безопасность для вас в приоритете?",
+      "conclusion": "security"
+    },
+    {
+      "conditions": [
+        {
+          "solution": null,
+          "games": null
+        }
+      ],
+      "function": "yes-or-no",
+      "question": "Вы любите игры?",
+      "conclusion": "games"
+    },
+    {
+      "conditions": [
+        {
+          "solution": null,
+          "imagination": null
+        }
+      ],
+      "function": "yes-or-no",
+      "question": "У вас развито воображение?",
+      "conclusion": "imagination"
+    },
+    {
+      "conditions": [
+        {
+          "imagination": "yes",
+          "games": "yes",
+          "solution": null,
+          "pc": null
+        }
+      ],
+      "function": "yes-or-no",
+      "question": "Вы играете на ПК или консоли?",
+      "conclusion": "pc"
+    },
+    {
+      "conditions": [
+        {
+          "games": "yes",
+          "solution": null,
+          "phonegames": null
+        }
+      ],
+      "function": "yes-or-no",
+      "question": "Вы играете на телефоне?",
+      "conclusion": "phonegames"
+    },
+    {
+      "conditions": [
+        {
+          "phonegames": "yes",
+          "solution": null,
+          "3d": null
+        }
+      ],
+      "function": "yes-or-no",
+      "question": "Вы предпочитаете 3D игры?",
+      "conclusion": "3d"
+    },
+    {
+      "conditions": [
+        {
+          "solution": null,
+          "2d": null
+        }
+      ],
+      "function": "yes-or-no",
+      "question": "Вы предпочитаете 2D игры?",
+      "conclusion": "2d"
+    },
+    {
+      "conditions": [
+        {
+          "pc": "yes",
+          "games": "yes",
+          "solution": null,
+          "easy": null
+        }
+      ],
+      "function": "yes-or-no",
+      "question": "Вы предпочитаете выбирать легкие пути?",
+      "conclusion": "easy"
+    },
+    {
+      "conditions": [
+        {
+          "pc": "yes",
+          "solution": null,
+          "graphics": null
+        }
+      ],
+      "function": "yes-or-no",
+      "question": "Для вас важна графика?",
+      "conclusion": "graphics"
+    },
+    {
+      "conditions": [
+        {
+          "pc": "yes",
+          "solution": null,
+		  "t": null
+        }
+      ],
+      "function": "ask-value",
+      "question": "Сколько в среднем часов в день у вас есть для изучения языка?",
+      "conclusion": "time"
+    },
+    {
+      "conditions": [
+        {
+          "solution": null,
+          "indie": null
+        }
+      ],
+      "function": "yes-or-no",
+      "question": "Вам интересны инди игры?",
+      "conclusion": "indie"
+    },
+    {
+      "conditions": [
+        {
+          "solution": null,
+          "aaa": null
+        }
+      ],
+      "function": "yes-or-no",
+      "question": "Вы играете только в ААА игры?",
+      "conclusion": "aaa"
+    },
+    {
+      "conditions": [
+        {
+          "solution": null,
+          "math": null
+        }
+      ],
+      "function": "yes-or-no",
+      "question": "Ваш любимый предмет - математика?",
+      "conclusion": "math"
+    },
+    {
+      "conditions": [
+        {
+          "solution": null,
+          "ai": null
+        }
+      ],
+      "function": "yes-or-no",
+      "question": "Вас интересуют ИИ и нейронные сети?",
+      "conclusion": "ai"
+    },
+    {
+      "conditions": [
+        {
+          "math": "yes",
+          "ai": "yes",
+          "solution": null,
+          "statistics": null
+        }
+      ],
+      "function": "yes-or-no",
+      "question": "Вам интересна статистика?",
+      "conclusion": "statistics"
+    },
+    {
+      "conditions": [
+        {
+          "statistics": "yes",
+          "solution": null,
+          "science": null
+        }
+      ],
+      "function": "yes-or-no",
+      "question": "Вас интересует теоритическая наука?",
+      "conclusion": "science"
+    },
+    {
+      "conditions": [
+        {
+          "statistics": "yes",
+          "solution": null,
+          "practice": null
+        }
+      ],
+      "function": "yes-or-no",
+      "question": "Вас интересует практика?",
+      "conclusion": "practice"
+    },
+    {
+      "conditions": [
+        {
+          "solution": null,
+          "versatility": null
+        }
+      ],
+      "function": "yes-or-no",
+      "question": "Вы предпочитаете универсальность и большое количество функций?",
+      "conclusion": "versatility"
+    }
+  ],
+  "Facts": [
+    {
+      "solution": null,
+      "browser": null,
+      "design": null,
+      "beauty": null,
+      "taste": null,
+      "creativity": null,
+      "mechanism": null,
+      "tasks": null,
+      "phone": null,
+      "iphone": null,
+      "android": null,
+      "experience": null,
+      "reliability": null,
+      "new": null,
+      "compactness": null,
+      "apple": null,
+      "simplicity": null,
+      "security": null,
+      "games": null,
+      "imagination": null,
+      "pc": null,
+      "phonegames": null,
+      "3d": null,
+      "2d": null,
+      "easy": null,
+      "graphics": null,
+      "time": null,
+	  "t": null,
+      "indie": null,
+      "aaa": null,
+      "math": null,
+      "ai": null,
+      "statistics": null,
+      "science": null,
+      "practice": null,
+      "versatility": null
+    }
+  ]
+}
